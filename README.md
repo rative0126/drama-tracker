@@ -1,5 +1,6 @@
 # drama-tracker
-An end-to-end data analytics portfolio project that tracks and analyzes drama viewing habits using the TMDB API and Power BI.
+An end-to-end data analytics project that bridges the gap between raw, unstructured media logs and corporate-ready business intelligence. The workflow transforms over 1,300 rows of messy personal viewing history from a Notion export into a fully automated data pipeline. By leveraging Python for API metadata enrichment, resolving multi-valued tag conflicts through advanced Star Schema data modeling, and engineering comprehensive DAX calculations, this solution delivers deep insights into viewing behaviors, temporal patterns, and data quality governance across a highly polished 3-page interactive dashboard.
+
 ---
 
 ## 📈 At a Glance
@@ -32,11 +33,17 @@ An end-to-end data analytics portfolio project that tracks and analyzes drama vi
 ### Page 1: Executive Summary
 A high-level grid system capturing macro business postures, performance statistics (Completion Rates, Average Score Distribution), and country-level ranking insights.
 
+![Page 1 Dashboard](powerbi/page1.png)
+
 ### Page 2: Temporal & Behavioral Insights
 Features an interactive Binge-Watching Heatmap crossing `Month` vs. `Weekday` density scales to isolate seasonal consumption fluctuations and user fatigue patterns.
 
+![Page 2 Genre & Time Intelligence](powerbi/page2.png)
+
 ### Page 3: Data Lineage & Quality Audit Trail
 An advanced technical audit dashboard revealing data completeness metrics across countries, API automatic coverage ratios, and an embedded transactional audit trail table.
+
+![Page 3 Data Lineage & Governance](powerbi/page3.png)
 
 ---
 
